@@ -1427,7 +1427,8 @@ body.is-preload #bg:before {
   -ms-transition: opacity 0.325s ease-in-out;
   transition: opacity 0.325s ease-in-out;
   position: relative;
-  margin-top: 3.5rem;
+  /* margin-top: 2rem; */
+  margin-bottom: 1.5rem;
 }
 
 /* #header > *:before {
@@ -1528,7 +1529,7 @@ body.is-preload #bg:before {
   min-width: 7.5rem;
   height: 2.75rem;
   line-height: 2.75rem;
-  padding: 0 1.25rem 0 1.45rem;
+  padding: 0 1.25rem 0 1.25rem;
   text-transform: uppercase;
   letter-spacing: 0.2rem;
   font-size: 0.8rem;
