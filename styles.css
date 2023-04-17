@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  a[target=_blank] {
+    text-decoration: none;
+    color: #999999;
+  }
+
+  a[target=_blank]:after {
+    content: "\2197";
+    margin-left: 3px
+  }
+
+  a[target=_blank]:hover {
+    color: #033435
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: #F5F5E9;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .left-column {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    position: sticky;
+    padding: 36px 40px;
+  }
+  
+  .right-column {
+    flex: 1;
+    height: 100vh;
+    overflow-y: auto;
+    padding: 36px 40px;
+  }
+  
+  .text-black, p, h1, h3, .text-gray, h2, .text-link {
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    line-height: 125%;
+    color: #222;
+  }
+  
+  .text-display {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5em;
+    line-height: 120%;
+    margin-top: 192px;
+    color: #222;
+  }
+  
+  .text-gray, h2 {
+    color: #999999;
+  }
+  
+  .links-desktop {
+    display: flex;
+    gap: 0 40px;
+    margin-top: auto;
+  }
+  
+  .links-mobile {
+    display: none;
+  }
+  
+  .projects {
+    margin-top: 192px;
+  }
+  
+  .project {
+    display: flex;
+    column-gap: 40px;
+    margin-bottom: 72px;
+  }
+  
+  .project-left {
+    flex: 40%;
+  }
+  
+  .project-right {
+    flex: 60%;
+  }
+  
+  .orb-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: -1;
+  }
+  
+  @media (min-width: 1440px) {
+      .text-display {
+        font-size: 2.75em;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    .project {
+      flex-direction: column;
+    }
+  
+    .project-left {
+      flex: 100%;
+      margin-bottom: 12px;
+    }
+  
+    .project-right {
+      flex: 100%;
+    }
+    
+     .text-display {
+      font-size: 2.25em;
+    }
+  }
+  
+  @media (max-width: 768px) {
+     html, body {
+     height: auto; /* Reset the height to auto */
+    }
+    
+    .container {
+      flex-direction: column;
+    }
+  
+    .left-column {
+      position: static;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 16px 20px;
+    }
+    
+    .right-column {
+      padding: 52px 20px 16px 20px;
+    }
+    
+    .projects {
+      margin-top: 32px;
+    }
+    
+    .text-display {
+      margin-top: auto;
+      font-size: 2em;
+    }
+  
+    .links-desktop {
+      display: none;
+    }
+    
+    .links-mobile {
+      display: flex;
+      gap: 0 40px;
+    }
+  }

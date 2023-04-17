@@ -1,0 +1,104 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@500&family=Playfair+Display&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/png" href="favicon.ico">
+  <title>Mariia Romaniuk. Software Engineer</title>
+</head>
+<body>
+  <canvas class="orb-canvas"></canvas>
+  <div class="container">
+    <div class="left-column">
+      <h1>Mariia Romaniuk</h1>
+      <p class="text-display">Hello, I'm a full-stack software engineer passionate about building high-impact, customer-focused products and working on tough, cross-platform problems. </p>
+      <div class="links-desktop">
+        <a href="https://www.linkedin.com/in/mariiaromaniuk" target=_blank>Linkedin</a>
+        <a href="https://github.com/mariiaromaniuk" target=_blank>Github</a>
+        <a href="https://twitter.com/mariiaromaniuk" target=_blank>Twitter</a>
+        <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=2&hl=en&user=4ByIzlkAAAAJ&authuser=2" target=_blank>Publications</a>
+      </div>
+    </div>
+    <div class="right-column">
+      <h2>Selected projects</h2>
+      <div class="projects">
+        <!-- Project 1 -->
+        <div class="project">
+          <div class="project-left">
+            <h3>Twitter</h3>
+            <p class="text-gray">Reporting experience</p>
+          </div>
+          <div class="project-right">
+            <p>Worked as a full-stack engineer building health/safety empowerment and
+              intervention tools like new Report Flow and Safety Center. Designed and implemented internal APIs for OCF (SSR framework) and UI
+              components for RWEB (React) internal component library: authored
+              detailed TDDs, implemented end-to-end, integrated into existing codebase.
+              Conducted DDG (Twitter's experimentation platform) experiments to
+              measure and validate the new Report Flow performance, results showed
+              improved user experience and increased product efficiency: 93.94% more
+              actionable reports, 58.9% fewer top-line reports. <a href="https://blog.twitter.com/common-thread/en/topics/stories/2021/twitters-new-reporting-process-centers-on-a-human-first-design" target=_blank>More</a></p>
+          </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="project">
+          <div class="project-left">
+            <h3>Twitter</h3>
+            <p class="text-gray">Safety mode</p>
+          </div>
+          <div class="project-right">
+            <p>Led the web client implementation work for new Safety Mode feature, an
+              AI-driven content moderation tool that autoblocks abusive content (using
+              Twitter's pBlock, pTox, and profanityFilter ML models) helping users to feel
+              safe on the platform, resulting in increased retention rates, UAM and mDAU.
+              Implemented UI for users to interact with the tool and to provide feedback
+              on problematic model outputs (false positives/negatives), which helped us
+              to enhance model's performance and capabilities. <a href="https://blog.twitter.com/en_us/topics/product/2021/introducing-safety-mode" target=_blank>More</a></p>
+          </div>
+        </div>
+         <!-- Project 3 -->
+        <div class="project">
+          <div class="project-left">
+            <h3>Mastermind</h3>
+            <p class="text-gray">AI game</p>
+          </div>
+          <div class="project-right">
+            <p>AI game implemented using the Genetic Algorithm, a metaheuristic inspired by natural selection that is commonly used to solve optimization problems in ML. It can be played by a user "against" the computer and vice versa. It utilizes Google Text-to-Speech API to allow blind or visually impaired users to navigate and understand the current state of the game. <a href="https://github.com/mariiaromaniuk/Mastermind#readme" target=_blank>More</a></p>
+          </div>
+        </div>
+        <!-- Project 4 -->
+        <div class="project">
+          <div class="project-left">
+            <h3>Imagify</h3>
+            <p class="text-gray">Image repository</p>
+          </div>
+          <div class="project-right">
+            <p>Image classification library where users can add, delete, group, and search images by keywords. Images are passed through the Tesseract API to identify characters (OCR) and the TensorFlow MobileNet image classification model to assign related labels so the image can then be searched by the labels or on the basis of another chosen image. <a href="https://github.com/mariiaromaniuk/Imagify#readme" target=_blank>More</a></p>
+          </div>
+        </div>
+        <!-- Project 5 -->
+        <div class="project">
+          <div class="project-left">
+            <h3>Plantagram</h3>
+            <p class="text-gray">E-commerce</p>
+          </div>
+          <div class="project-right">
+            <p>E-commerce application for selling plants. It allows registered users or guests to create and edit shopping carts, search for items using filters, and proceed to checkout. It also takes care of inventory management, ensuring that any price changes are represented in a user's cart until the time of purchase and that no out-of-stock products are listed as available. <a href="https://github.com/mariiaromaniuk/Plantagram#readme" target=_blank>More</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="links-mobile">
+        <a href="https://www.linkedin.com/in/mariiaromaniuk" target=_blank>Linkedin</a>
+        <a href="https://github.com/mariiaromaniuk" target=_blank>Github</a>
+        <a href="https://twitter.com/mariiaromaniuk" target=_blank>Twitter</a>
+        <a href="https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=2&hl=en&user=4ByIzlkAAAAJ&authuser=2" target=_blank>Publications</a>
+      </div>
+    </div>
+  </div>
+  <div class="cursor"></div>
+  <script type="module" src="script.js"></script>
+</body>
+</html>
