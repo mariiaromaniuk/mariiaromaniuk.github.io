@@ -6,7 +6,7 @@
 
   a[target=_blank] {
     text-decoration: none;
-    color: #999999;
+    color: #222
   }
 
   a[target=_blank]:after {
@@ -15,7 +15,7 @@
   }
 
   a[target=_blank]:hover {
-    color: #033435
+    color: #c30085;
   }
   
   html, body {
@@ -46,11 +46,18 @@
     padding: 36px 40px;
   }
   
-  .text-black, p, h1, h3, .text-gray, h2, .text-link {
+  .text-black, h1, h3, .text-gray, h2, .text-link {
     font-family: 'Inter', sans-serif;
     font-size: 1em;
     line-height: 125%;
     color: #222;
+  }
+
+  p {
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    line-height: 125%;
+    color: #999999;
   }
   
   .text-display {
